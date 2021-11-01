@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#keys{
+    background:url(./igor-karimov-9AmKnNZw3GA-unsplash.jpg) center center/cover;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+
+kbd{
+    display: block;
+    font-size: 30px;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
+.key
+{
+    color: white;
+    transition:all .2s ease-in-out;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 80px;
+    justify-content: center;
+    width: 80px;
+}
